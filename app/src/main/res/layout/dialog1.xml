@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enterday"
+        android:hint="ENTER DAY"
+        android:background="@android:color/darker_gray"
+        android:layout_margin="10dp"
+        android:layout_gravity="left"
+        android:inputType="date"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/entermonth"
+        android:hint="ENTER MONTH"
+        android:background="@android:color/darker_gray"
+        android:layout_margin="10dp"
+        android:layout_gravity="left"
+        android:inputType="date"/>
+
+</LinearLayout>
